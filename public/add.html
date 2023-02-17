@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="form-validation/form-validation.css" rel="stylesheet">
+   
+    
+</head>
+<body class="bg1">
+    
+
+    <div class="container col-sm-6 d-flex justify-content-center my-5 align-items-center form1" >
+    
+        <form action="/add" method="post" class="needs-validation" novalidate>
+          <div class="row g-2">
+
+            <div class="col-sm-6">
+              <label for="type" class="form-label">Item type</label>
+              <select class="form-select" id="type" name="type" required>
+                <option value="product">Product</option>
+                <option value="service">Service</option>
+              </select>
+              <div class="invalid-feedback">
+                Valid type is required.
+              </div>
+            </div>
+            <div class="col-sm-6">
+                <label for="name" class="form-label">Item Name</label>
+                <input type="text" class="form-control" id="name" placeholder="name" name="name" required>
+                <div class="invalid-feedback">
+                  Valid  Name is required.
+                </div>
+              </div>
+
+            <div class="col-6">
+              <label for="Owner" class="form-label">Owner</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text"></span>
+                <input type="text" class="form-control" id="owner" name="owner" placeholder="Owner" required>
+              <div class="invalid-feedback">
+                  The owner is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <label for="contact" class="form-label">Contact <span class="text-muted">(Required)</span></label>
+              <div class="input-group has-validation ">
+              <span class="input-group-text">#</span>
+              <input type="text" class="form-control" id="contact" name="contact" placeholder="+237 6-- --- ---" required>
+              <div class="invalid-feedback">
+                Please enter a valid contact number
+              </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="price" class="form-label">Lowest Price</label>
+                <input type="text" class="form-control" id="pricelowest" name="pricelowest" placeholder="lowest price" required>
+                <div class="invalid-feedback">
+                  Lowest price required.
+                </div>
+              </div><div class="col-md-4">
+                <label for="price" class="form-label">Medium price</label>
+                <input type="text" class="form-control" id="pricemedium" name="pricemedium" placeholder=" medium price" required>
+                <div class="invalid-feedback">
+                  Medium price required.
+                </div>
+              </div><div class="col-md-4">
+                <label for="price" class="form-label">Highest price</label>
+                <input type="text" class="form-control" id="pricehighest" name="pricehighest" placeholder="highest price" required>
+                <div class="invalid-feedback">
+                  Highest price required.
+                </div>
+              </div>
+
+
+
+    
+          <hr class="my-4">
+
+
+     
+          <input type="submit">
+        </form>
+     
+      </div>
+
+    
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="form-validation/form-validation.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.home{
+    display:flex;
+    border: 1px dotted black;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div{
+    display: block;
+    border: 1px dotted black;
+
+}
+.block{
+    display: block;
+}

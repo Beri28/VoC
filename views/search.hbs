@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--script src="custom-js/searchFetch.js"></script-->
+    <script src="custom-js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="row1">
+            {{{data}}}
+        </div>
+    </div>
+    <div class="modal  fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content"><div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            </div>
+            <div class="modal-body">
+                <form action="/rate" method="post" >
+                    <p>Type</p>
+                        <select name="type" class="type">
+                            <option value="product">product</option>
+                            <option value="service">service</option>
+                        </select>
+                    <label class="">Name: </label><input class="name" type="text" name="name" >
+                    <div class="div">
+                        <legend>Rating</legend>
+                    <label class="">5 stars</label><input class="" type="radio" value="5" name="number">
+                    <label class="">4 stars</label><input class="" type="radio" value="4" name="number">
+                    <label class="">3 stars</label><input class="" type="radio" value="3" name="number">
+                    <label class="">2 stars</label><input class="" type="radio" value="2" name="number">
+                    </div>
+                    <p>What is your opinion about the product</p>
+                    <select name="opinion" >
+                        <option value="vbad">it was horrible</option>
+                        <option value="bad">it was bad</option>
+                        <option value="notGood">it wasn't good</option>
+                        <option value="okay" selected>it was okay</option>
+                        <option value="notNad">it wasn't bad</option>
+                        <option value="good">it was good</option>
+                        <option value="perfect">it was perfect, i loved it</option>
+                    </select>
+                    <!--p>What did you think of this product?</p>
+                    <p><label>Your name please: </label><input type="text" name="customerName"></p>
+                    <textarea name="review" placeholder="write your opinion here" rows="6" cols="30"></textarea-->
+                    <input  class=" btn btn-primary" type="submit" value="Send">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Rate</button>
+            </div>
+          </div>
+          </div>
+
+        </div>
+        <script>
+           
+
+        </script>
+</body>
+</html>

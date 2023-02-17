@@ -1,0 +1,53 @@
+
+.b-example-divider {
+  height: 2rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  margin-bottom: 10px;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 75%;
+}
+
+
+.VoC{
+  font-family: cursive;
+}
+
+.bg-dark1{
+  background-color: rgba(0, 128, 128,0.7);
+ 
+}
+.active1{
+  background-color: rgba(0, 128, 128,1); 
+  border-radius: 25%;
+}
+
+.mini-header{
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-weight: bold;
+}
+.beri{
+  padding-bottom: 10px;
+}
+.container1{
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+.bg-dark2{
+  background-color: rgba(0, 128, 128,1);
+}
+.card-info1{
+  font-size: small;
+}

@@ -1,0 +1,33 @@
+<link href="style2.css" type="text/css" rel="stylesheet">
+
+<div class="home">
+<form action="/rate" method="post" >
+    <p>Type</p>
+        <select name="type">
+            <option value="product">product</option>
+            <option value="service">service</option>
+        </select>
+    <label class="">Name: </label><input type="text" name="name" value="iphone">
+    <div class="div">
+        <legend>Rating</legend>
+    <label class="">5 stars</label><input class="" type="radio" value="5" name="number">
+    <label class="">4 stars</label><input class="" type="radio" value="4" name="number">
+    <label class="">3 stars</label><input class="" type="radio" value="3" name="number">
+    <label class="">2 stars</label><input class="" type="radio" value="2" name="number">
+    </div>
+    <p>What is your opinion about the product</p>
+    <select name="opinion" >
+        <option value="vbad">it was horrible</option>
+        <option value="bad">it was bad</option>
+        <option value="notGood">it wasn't good</option>
+        <option value="okay" selected>it was okay</option>
+        <option value="notNad">it wasn't bad</option>
+        <option value="good">it was good</option>
+        <option value="perfect">it was perfect, i loved it</option>
+    </select>
+    <p>What did you think of this product?</p>
+    <p><label>Your name please: </label><input type="text" name="customerName"></p>
+    <textarea name="review" placeholder="write your opinion here" rows="6" cols="30"></textarea>
+    <input  class="block btn" type="submit" value="Send">
+</form>
+</div>

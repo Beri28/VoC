@@ -1,0 +1,11 @@
+
+.form1{
+  height: 550px;
+  border: 1px double gray;
+  border-radius: 5%;
+  background-color: white;
+  
+}
+.bg1{
+  background-color: rgba(76, 167, 113,0.8);
+}
