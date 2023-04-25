@@ -4,8 +4,9 @@ const  mongoose =   require('mongoose');
 const  router   =   require('./routes/routes');
 const  hbs      =   require('express-handlebars');
 const  dotenv   =   require('dotenv').config();
-
-
+console.log("///////")
+console.log(process.env.URI)
+console.log("///////")
 mongoose.connect(process.env.URI,(error)=>{
     if(error){
         console.log('////',error)
