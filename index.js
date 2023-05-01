@@ -4,7 +4,7 @@ const  mongoose =   require('mongoose');
 const  router   =   require('./routes/routes');
 const  hbs      =   require('express-handlebars');
 const  dotenv   =   require('dotenv').config();
-let cString='mongodb+srv://berinyuy28:berinyuy28.@cluster0.vb5vpsk.mongodb.net/?retryWrites=true&w=majority'
+let cString='mongodb+srv://berinyuy28:berinyuy28.@cluster0.vb5vpsk.mongodb.net/test?retryWrites=true&w=majority'
 console.log("///////")
 console.log(cString)
 console.log("///////")
