@@ -1,4 +1,4 @@
-fetch('http://localhost:5000/allServices')
+fetch('https://voice-of-customer1.onrender.com/allServices')
 .then(res=>res.json())
 .then(data=>{
     const html=data.map(user=>{
