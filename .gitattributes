@@ -1,2 +1,3 @@
 .jsx linguist-language=JavaScript
 public/assets2/* linguist-vendored
+.css linguist-vendored
